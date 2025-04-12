@@ -1,0 +1,68 @@
+body {
+    background-color: #1c202b;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h1 {
+    color: #d3b21e;
+  }
+  
+  .scoreboard {
+    background-color: #020202;
+    padding: 20px;
+    font-size: 32px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .badge {
+    background-color: #ff4c4c;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    position: absolute;
+    top: -10px;
+  }
+  
+  #user-label {
+    left: -50px;
+  }
+  
+  #comp-label {
+    right: -80px;
+  }
+  
+  #result {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .choice {
+    background-color: #333;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .choice:hover {
+    transform: scale(1.2);
+  }
+  
